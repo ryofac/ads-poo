@@ -1,0 +1,29 @@
+1 - Uma classe pode ser interpretada como a abstração de um objeto real, com métodos e atributos que podem ser intepretados como características de algo já existente na vida real, mas adaptado e simplificado para tratar um problema (ou problemas) em específico. Já o objeto é uma "classe viva", afinal ao se instanciar uma classe, criando um objeto, é alocado um espaço em memória que recebe uma variável com a construção real de uma classe, ou seja, todos os métodos e atributos de fato.
+
+2 - Atributos são abstrações de características de objetos no mundo real, geralmente podem ser interpretados por palavras morfologicamente descritas como substantivos. Já metódos são abstrações de ações sofridas ou a serem feitas por determinado objeto, podendo ser morfologicamente descritas descritas como verbos. Um exemplo disso é em determinada instituição financeira uma classe Conta, contendo atributos como: numero_conta, nome_titular e cpf_titular assim como métodos: depositar() e obter_saldo()
+
+3 -
+Atributo	 	Sistema em que é importante
+--------		---------------------------
+Peso		 	Avaliação física de atletas em uma competição
+Tipo de CNH	 	Classificação de motoristas em uma empresa
+Tipo Sanguíneo		Sistema de um banco de sangue, ao receber sangue de um doador
+
+Habilidade destra	Sistema de registro de alunos em uma escola, para saber a quantidade   			
+ 		        de cadeiras para canhotos a ser requisitada dependendo de quantos alunos 		
+ 		        não são destros. Sistema para uma empresa que vende violões
+ 		        
+Percentual de gordura	Sistema de avaliação física
+Saldo em conta		Sistema bancário
+Etinia			Carteira de indentidade, registro de cidadãos
+
+4 - 	a -Sim, mas depende da abordagem. Se o sistema bancário só oferece uma opção de conta, cada pessoa cadastrada teria uma única conta, que seria armazenada dentro da classe conta, mas se o sistema possui duas ou mais opções de conta, como conta corrente e conta poupança, o nome da pessoa apareceria em duas contas diferentes, mas aparentemente sem ligação.
+
+	b - Para caso de mais contas, é interessante que isso seja armazenado dentro de Pessoa, já que fazer isso, posso encontrar facilmente os cadastros de cada pessoa, bem como outras informações relativas ao seu cadastro, para cada objeto de Conta. A melhor forma seria armazenar em uma array as contas disponíveis.
+	
+5 - Professor, Servidor, Provas, Disciplina, Diário
+
+6 - Um jogo de RPG por exemplo, o personagem principal pode pertencer a uma classe Herói, contendo sua classe de jogo (mago, guerreiro, druida), atributos (força, destreza, inteligência), barra de vida, inventário, métodos como dar_dano(), sofrer_dano(), curar(). Essa classe também pode gerar outros objetos,assim como um segundo jogador, por exemplo. Uma classe inimiga também pode ser feita, contendo seu tipo, o dano que ele pode causar, assim como atributos multiplicadores de dificuldade, como força, tendência a se esquivar de projéteis, além de métodos como esquivar(), perseguir_heroi(), isso faz com que um inimigo voador e um inimigo terrestre possam ser criados de um mesmo "molde", apenas mudando seu tipo. Além disso, pode -se conter uma classe de Aliado, contendo o nível de relação com os personagens principais, as trocas que se pode fazer e os diálogos que se pode interagir; contendo também métodos como: trocar_itens(), juntar_a_equipe(), sair_da_equipe().
+
+
+
