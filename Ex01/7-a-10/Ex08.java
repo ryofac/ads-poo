@@ -8,7 +8,7 @@ public class Ex08 {
 }
 
 class Circle {
-    double PI = 3.141592;
+    private double PI = 3.141592;
     double radius;
 
     Circle(double radius){
