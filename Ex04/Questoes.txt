@@ -1,0 +1,18 @@
+1 - F F F F V V V 
+
+2 - * na pasta *
+
+3 - * na pasta *
+
+4 - * na pasta *
+
+5 - a) Os valores presentes nas respectivas contas seriam todas 90, após todas as operações, visto que o objeto 2 acaba sendo referenciado pelo objeto 1 e o objeto 3 acaba referenciando o objeto 1
+    b) O que acontece com o objeto para o qual a referência c1 apontava?
+Sua referência acaba sendo perdida, visto que c3 agora estaria apontando para c1, modificando c3, acabaria modificando o objeto c1
+
+6 - * na pasta *
+
+7 - * na pasta *
+
+8 - * na pasta *
+
