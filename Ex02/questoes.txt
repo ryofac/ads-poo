@@ -71,7 +71,6 @@ fazendo com que a atribuição de nome ficasse incorreta em uma base de dados.
     "allowUnreachableCode": true,
     "noImplicitAny": true,
     "target": "ES3",
-    "ignoreDeprecations": "5.0",
     "strictNullChecks": false   
 
 }
