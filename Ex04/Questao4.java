@@ -1,6 +1,5 @@
 // A classe apresenta um construtor declarado, que recebe um atributo do tipo inteiro ao ser iniciaizado, porém o código em questão não passa nenhum valor para o construtor da classe.
 // Uma possível solução seria:
-// (em Java)
 class Radio {
     private int volume;
 
