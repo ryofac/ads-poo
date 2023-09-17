@@ -1,10 +1,10 @@
-package questao10;
+package questao10.Models;
 
 public class Entity {
     protected int lifePoints;
     protected int strenght;
 
-    Entity(int lifePoints, int strenght) {
+    protected Entity(int lifePoints, int strenght) {
         this.lifePoints = lifePoints;
         this.strenght = strenght;
     }

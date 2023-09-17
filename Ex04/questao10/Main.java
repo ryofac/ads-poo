@@ -2,6 +2,8 @@ package questao10;
 
 import java.util.Scanner;
 
+import questao10.Models.Enemy;
+
 public class Main {
     static Scanner sc = new Scanner(System.in, "UTF-8");
 
@@ -9,11 +11,10 @@ public class Main {
         Enemy globalEnemys[] = { new Enemy("bug"), new Enemy("giant") };
         String name = initPlayer();
         Player p1 = new Player(name);
-        System.out.println("Player criado!");
-        p1.getStatus();
-
         enterToContinue();
         clearScreen();
+        System.out.println("Player criado!");
+        p1.getStatus();
 
         sc.close(); // Dont forget to close!!
 
@@ -53,7 +54,7 @@ public class Main {
     }
 
     static void clearScreen() {
-        System.out.print("\033[H\033[2KJ");
+        System.out.print("\033\143");
         System.out.flush();
     }
 

@@ -1,5 +1,7 @@
 package questao10;
 
+import questao10.Models.Entity;
+
 class Player extends Entity {
     String name;
     private int level = 1;
@@ -12,7 +14,7 @@ class Player extends Entity {
     }
 
     private void updateStrenght() {
-        this.strenght = level * 10;
+        super.strenght = level * 10;
     }
 
     Player(String name) {

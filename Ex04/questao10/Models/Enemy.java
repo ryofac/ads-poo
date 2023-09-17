@@ -1,10 +1,9 @@
-package questao10;
+package questao10.Models;
 
-class Enemy extends Entity {
+public class Enemy extends Entity {
     String type;
-    String localStrenght;
 
-    Enemy(String type) {
+    public Enemy(String type) {
         super(10, 10);
         this.type = type;
         switch (type) {
