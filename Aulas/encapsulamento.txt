@@ -1,0 +1,14 @@
+Encapsulamento -> Modularizar: Guardar em capsulas.... Modularizar, fazer com que as coisas sejam mais independentes, mais aplicáveis
+    >> Proteção dos elementos da classe! -> Tendo uma capa, um cartuchinho...
+    >> Encapsulamento -> deixa alguns elementos das clsses simplificados e protegidinhos, outra classe só precisa saber o que eu quero que precise saber
+        -> Encapsular as características, os atributos e acessar somente os comportamentos, os métodos
+        -> ENCAPSULAR ATRIBUTOS MAIS SIGNIFICATIVOS E DEIXAR O ACESSO EXCLUSIVO A MÉTODOS.
+        -> Proteger atributos das merdas que um programador (eu mesmo) possa fazer
+    >> Atributos no núcleo, deixando apenas o acesso para o usuário da casca, externas (Métodos)
+    
+    >> Uma classe é formada por um núcleo, que é composto de suas características principais, e uma casca, que é externa ( A parte que tem contato com as outras ), que são métodos (getters e setters), permintindo a comunicação        
+
+
+Acoplamento: coisas muito dependentes umas das outras
+Um dos pilares da boa constução de software!
+-> Polimorfismo: Ainda vamos ver...
