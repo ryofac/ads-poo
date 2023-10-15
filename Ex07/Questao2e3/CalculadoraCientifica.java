@@ -1,4 +1,4 @@
-package Ex07.Questao2;
+package Ex07.Questao2e3;
 
 public class CalculadoraCientifica extends Calculadora {
 
