@@ -7,7 +7,7 @@ public class CalculadoraCientifica extends Calculadora {
     }
 
     public Double exponenciar() {
-        return Math.pow(operando1, operando2);
+        return Math.pow(super.operando1, super.operando2);
 
     }
 

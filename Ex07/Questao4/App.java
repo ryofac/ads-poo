@@ -1,4 +1,4 @@
-package Ex07.Questao3;
+package Ex07.Questao4;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -52,7 +52,7 @@ public class App {
                 "\n========================================\n" +
                 "1 - Cadastrar\t 2 - Consultar\t 3 - Sacar" +
                 "\n4 - Depositar\t 5 - Excluir\t 6 - Transferir" +
-                "\n7 - Totalizações" +
+                "\n7 - Totalizações 8 - Passar mês" +
                 "\n0 - Sair" +
                 "\n======================================\n");
 
@@ -76,6 +76,17 @@ public class App {
         Utils.show(inputString);
         String text = in.next();
         return text;
+    }
+
+    private void passMonth() {
+        Utils.show("Passando o mês...");
+        for (Account acc : bank.getAccounts()) {
+            if (acc instanceof SavingsAccount) {
+                ((SavingsAccount) acc).applyTax();
+
+            }
+
+        }
     }
 
     private void insertAccount() {
@@ -292,14 +303,21 @@ public class App {
                 case 7:
                     getData();
                     break;
+                case 8:
+                    passMonth();
+                    break;
                 default:
                     continue;
 
             }
         } while (opcao != 0);
         Utils.show("Volte Sempre!");
-        if (saveData())
+        if (saveData()) {
             System.out.println("Dados Salvos!");
+        } else {
+            System.out.println("Erro ao salvar dados!");
+        }
+
         in.close();
 
     }

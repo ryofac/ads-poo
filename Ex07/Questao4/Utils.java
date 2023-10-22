@@ -1,4 +1,4 @@
-package Ex07.Questao3;
+package Ex07.Questao4;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -39,7 +39,7 @@ public class Utils {
             return new File(filePath);
 
         } catch (IOException e) {
-            System.out.println("Ocorreu um erro ao escrever no arquivo!");
+            System.out.println("Ocorreu um erro ao escrever no arquivo " + filePath);
         }
         return null;
 
@@ -75,10 +75,6 @@ public class Utils {
                 return client;
             }
         }
-        return null;
-    }
-
-    public static String generateAccountNum() {
         return null;
     }
 

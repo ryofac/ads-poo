@@ -2,7 +2,7 @@ package Ex07.Questao5;
 
 import java.util.UUID;
 
-import Ex07.Questao3.Utils;
+import Ex07.Questao4.Utils;
 
 public class Product {
     private String productId;

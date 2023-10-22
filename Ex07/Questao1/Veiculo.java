@@ -4,4 +4,9 @@ public class Veiculo {
     String placa;
     Integer ano;
 
+    public Veiculo(String placa, Integer ano) {
+        this.placa = placa;
+        this.ano = ano;
+    }
+
 }
