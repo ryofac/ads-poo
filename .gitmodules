@@ -1,0 +1,3 @@
+[submodule "provaPOO"]
+	path = provaPOO
+	url = https://github.com/ryofac/provaPOO.git
